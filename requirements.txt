@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+sentence-transformers
+pdfplumber
+python-docx
+pytesseract
+Pillow
+opencv-python
+reportlab
+joblib
+selenium
+beautifulsoup4
+lxml
