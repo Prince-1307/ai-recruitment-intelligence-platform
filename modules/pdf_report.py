@@ -34,6 +34,10 @@ def generate_pdf_report(
     missing_skills
 
 ):
+    Path(file_path).parent.mkdir(
+        parents=True,
+        exist_ok=True
+    )
 
     doc = SimpleDocTemplate(
 
