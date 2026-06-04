@@ -118,7 +118,7 @@ Data Handling | Pandas, NumPy |
 
 ---
 
-# 💡 Key Highlights
+#  Key Highlights
 
 ✅ End-to-end AI recruitment workflow  
 ✅ Semantic AI job matching  
@@ -138,5 +138,3 @@ This project is licensed under the MIT License.
 #  Author
 
 Prince Sheladiya
-
-Built with ❤️ using AI and NLP.
