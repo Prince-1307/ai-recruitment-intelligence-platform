@@ -5,6 +5,7 @@ BASIC_ROLES = [
     "Data Analyst",
     "Data Scientist",
     "Frontend Develpoer",
+    "Java Develloper",
     "Machine Learning Engineer",
     "Python Developer",
 

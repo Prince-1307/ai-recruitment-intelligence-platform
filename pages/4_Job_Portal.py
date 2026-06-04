@@ -228,7 +228,7 @@ if submitted:
         # =================================================
 
         dataset_path = (
-            r"data\cleaned_job_postings.csv"
+            r"data/cleaned_job_postings.csv"
         )
 
         if os.path.exists(dataset_path):
@@ -349,10 +349,10 @@ st.divider()
 
 st.subheader("📌 Recently Added Jobs")
 
-role_model = pickle.load(open(r"models\role_predictor.pkl", "rb"))
+role_model = pickle.load(open(r"models/role_predictor.pkl", "rb"))
 
 
-dataset_path = r"data\cleaned_job_postings.csv"
+dataset_path = r"data/cleaned_job_postings.csv"
 
 if os.path.exists(dataset_path):
 

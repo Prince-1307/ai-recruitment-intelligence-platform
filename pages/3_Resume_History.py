@@ -67,10 +67,10 @@ st.markdown(
 # CHECK HISTORY FILE
 # =====================================================
 
-if os.path.exists(r"data\resume_history.csv"):
+if os.path.exists(r"data/resume_history.csv"):
 
     history_df = pd.read_csv(
-        r"data\resume_history.csv"
+        r"data/resume_history.csv"
     )
 
     # =================================================
@@ -194,7 +194,7 @@ if os.path.exists(r"data\resume_history.csv"):
 
         data=csv_data,
 
-        file_name=r"data\resume_history.csv",
+        file_name=r"data/resume_history.csv",
 
         mime="text/csv"
     )

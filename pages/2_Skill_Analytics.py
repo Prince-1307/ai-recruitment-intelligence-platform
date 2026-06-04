@@ -26,7 +26,7 @@ st.set_page_config(
 # =====================================================
 
 df = pd.read_csv(
-    r"data\cleaned_job_postings.csv"
+    r"data/cleaned_job_postings.csv"
 )
 
 
