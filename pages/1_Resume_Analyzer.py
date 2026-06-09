@@ -52,8 +52,7 @@ with st.sidebar:
         """
         ### Features
 
-        ✅ Resume Parsing  
-        ✅ OCR Support  
+        ✅ Resume Parsing
         ✅ ATS Analysis  
         ✅ Semantic Matching  
         ✅ Role Prediction  
