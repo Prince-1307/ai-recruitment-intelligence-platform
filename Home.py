@@ -76,7 +76,6 @@ with col1:
 
         Analyze resumes using:
         - NLP
-        - OCR
         - ATS scoring
         - semantic AI
         """
