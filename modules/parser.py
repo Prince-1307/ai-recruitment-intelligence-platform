@@ -2,15 +2,6 @@ import pdfplumber
 
 import docx
 
-import pytesseract
-
-from PIL import Image
-
-pytesseract.pytesseract.tesseract_cmd = (
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-)
-
-
 # =====================================================
 # PDF PARSER
 # =====================================================
@@ -49,18 +40,6 @@ def extract_text_from_docx(docx_file):
     return "\n".join(text)
 
 
-# =====================================================
-# IMAGE OCR PARSER
-# =====================================================
-
-def extract_text_from_image(image_file):
-
-    image = Image.open(image_file)
-
-    text = pytesseract.image_to_string(image)
-
-    return text
-
 
 # =====================================================
 # UNIVERSAL PARSER
@@ -70,36 +49,13 @@ def extract_resume_text(uploaded_file):
 
     file_name = uploaded_file.name.lower()
 
-    # --------------------------------
-    # PDF
-    # --------------------------------
-
     if file_name.endswith(".pdf"):
-
-        return extract_text_from_pdf(
-            uploaded_file
-        )
-
-    # --------------------------------
-    # DOCX
-    # --------------------------------
+        return extract_text_from_pdf(uploaded_file)
 
     elif file_name.endswith(".docx"):
-
-        return extract_text_from_docx(
-            uploaded_file
-        )
-
-    # --------------------------------
-    # IMAGE
-    # --------------------------------
-
-    elif file_name.endswith((".png", ".jpg", ".jpeg")):
-
-        return extract_text_from_image(
-            uploaded_file
-        )
+        return extract_text_from_docx(uploaded_file)
 
     else:
-
-        return ""
+        raise ValueError(
+            "Only PDF and DOCX files are supported."
+        )

@@ -95,7 +95,10 @@ st.divider()
 
 uploaded_file = st.file_uploader(
     "Upload Resume",
-    type=['pdf', 'docx', 'png', 'jpg', 'jpeg']
+    type=[
+    "pdf",
+    "docx"
+]
 )
 
 

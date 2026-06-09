@@ -6,9 +6,6 @@ plotly
 sentence-transformers
 pdfplumber
 python-docx
-pytesseract
-Pillow
-opencv-python
 reportlab
 joblib
 selenium

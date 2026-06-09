@@ -431,13 +431,7 @@ if os.path.exists(dataset_path):
 
                 "Upload Resume",
 
-                type=[
-                    'pdf',
-                    'docx',
-                    'png',
-                    'jpg',
-                    'jpeg'
-                ],
+                type=["pdf","docx"],
 
                 key=f"resume_{idx}"
             )
@@ -666,13 +660,7 @@ if os.path.exists(dataset_path):
 
                 "Upload Resume",
 
-                type=[
-                    'pdf',
-                    'docx',
-                    'png',
-                    'jpg',
-                    'jpeg'
-                ],
+                type=["pdf","docx"],
 
                 key=f"resume_{idx}"
             )
