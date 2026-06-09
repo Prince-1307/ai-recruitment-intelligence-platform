@@ -124,7 +124,7 @@ Provides insights into:
 
 **Live Application:**
 
-https://ai-recruitment-intelligence-platform-5ze2rm5ha2tu7br42nfncu.streamlit.app/Job_Portal
+https://ai-recruitment-intelligence-platform-5ze2rm5ha2tu7br42nfncu.streamlit.app
 
 ---
 
